@@ -79,32 +79,41 @@ main{
 main section img:nth-of-type(1), main section img:nth-of-type(3), main section img:nth-of-type(5){
     transform: rotate(90deg);
 }
-main section img:nth-of-type(2){
+main article section img:nth-of-type(2){
     transform: rotate(180deg);
 }
-main section img:nth-of-type(4){
+main article section img:nth-of-type(4){
     transform: rotate(270deg);
 }
-main section:nth-of-type(1){
+main section{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-main section:nth-of-type(2){
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 500px;
-    margin: 0px auto;
-}
-main section p{
+main section div{
     color: #fff;
     font-family: 'Yeon Sung';
     font-size: 26px;
-}
-.img1:hover section~section>p{
-    background-color: rgb(42, 158, 48);
-}
-
-main article{
     display: flex;
+    max-width: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    transition: color 1s;
+}
+img:hover~div{
+    color: rgb(42, 158, 48);
+}
+main article section img:hover{
+    transform: scale(1.2);
+}
+main article section h2{
+    color: rgb(25, 110, 29);
+    font-family: 'Yeon Sung';
+    font-size: 30px;
+}
+main article section img{
+    transition: transform 1s;
 }
