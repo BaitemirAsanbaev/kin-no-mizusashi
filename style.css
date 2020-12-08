@@ -61,7 +61,50 @@ header p{
 }
 header{
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 50px auto;
     background-color: hsl(0, 0%, 95%);
     padding: 10px 20px;
+    transition: transform 1.5s, box-shadow 1.5s, color 1.5s;
+}
+header:hover{
+    color: rgb(42, 158, 48);
+    box-shadow: 20px 20px 0px rgb(42, 158, 48);
+    transform: translate(-20px, -20px);
+}
+main{
+    max-width: 1000px;
+    margin: 50px auto;
+    
+}
+main section img:nth-of-type(1), main section img:nth-of-type(3), main section img:nth-of-type(5){
+    transform: rotate(90deg);
+}
+main section img:nth-of-type(2){
+    transform: rotate(180deg);
+}
+main section img:nth-of-type(4){
+    transform: rotate(270deg);
+}
+main section:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+}
+main section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 0px auto;
+}
+main section p{
+    color: #fff;
+    font-family: 'Yeon Sung';
+    font-size: 26px;
+}
+.img1:hover section~section>p{
+    background-color: rgb(42, 158, 48);
+}
+
+main article{
+    display: flex;
 }
