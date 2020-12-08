@@ -25,6 +25,12 @@ nav ul li a{
     font-size: 24px;
     padding: 10px 15px;
     line-height: 1.5;
+    transition: background-color .8s, color .3s, border-radius .5s;
+}
+nav ul li a:hover{
+    background-color: rgb(42, 158, 48);
+    border-radius: 5px;
+    color: #fff;
 }
 nav ul li{
     display: inline;
