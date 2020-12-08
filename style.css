@@ -59,6 +59,19 @@ nav{
     background-color: hsl(0, 0%, 95%);
     padding: 10px 15px;
 }
+#back-btn{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(42, 158, 48);
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+}
 .div h1{
     font-family: 'NightinTokio';
     font-size: 36px;
