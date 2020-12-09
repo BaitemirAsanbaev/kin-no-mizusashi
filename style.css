@@ -157,3 +157,13 @@ main:hover>hr{
     color: black;
     transition: color 1.5s;
 }
+footer{
+    background-color: rgb(42, 158, 48);
+}
+footer div{
+    color: #fff;
+    max-width: 1000px;
+    margin: 0px auto;
+    font-family: 'NightinTokio';
+    font-size: 26px;
+}
