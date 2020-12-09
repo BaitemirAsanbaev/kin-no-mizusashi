@@ -167,3 +167,17 @@ footer div{
     font-family: 'NightinTokio';
     font-size: 26px;
 }
+section ul li a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'NightinTokio';
+    font-size: 20px;
+    color: rgb(42, 158, 48);
+}
+section ul li{
+    line-height: 2;
+}
+section ul{
+    list-style: none;
+    font-weight: bolder;
+}
